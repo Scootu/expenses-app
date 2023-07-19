@@ -1,0 +1,47 @@
+.form { 
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.formLabel { 
+  color: #000;
+  display: inline-block;
+  padding: 1% 4%;
+  width: 50%;
+  
+}
+.formLabel label { 
+    display: block;
+   font-size: 20px;
+   font-weight: 700;
+ 
+}
+.formLabel input { 
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 8px 11px;
+    font-size: 18px;
+    width: 100%;
+}
+/* BTN */ 
+
+.btnExpense { 
+  padding: 10px;
+    /* margin-left: 108px; */
+    position: absolute;
+    top: 76%;
+    right: 4%;
+    /* border: 29px; */
+    border-radius: 7px;
+    border: none;
+    background-color: #8c068c;
+    color: #FFF;
+    font-weight: 700;
+}
+.btnExpense:hover { 
+  cursor: pointer;
+}
+.cancel { 
+  right: 25%;
+}
